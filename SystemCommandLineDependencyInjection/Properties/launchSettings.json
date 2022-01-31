@@ -1,0 +1,39 @@
+{
+  "profiles": {
+    "no args": {
+      "commandName": "Project"
+    },
+    "-?": {
+      "commandName": "Project",
+      "commandLineArgs": "-?"
+    },
+    "--version": {
+      "commandName": "Project",
+      "commandLineArgs": "--version"
+    },
+    "first -?": {
+      "commandName": "Project",
+      "commandLineArgs": "first -?"
+    },
+    "first -c -p1": {
+      "commandName": "Project",
+      "commandLineArgs": "first --common c1 --param-1 p1a"
+    },
+    "first -c -p2": {
+      "commandName": "Project",
+      "commandLineArgs": "first --common c1 --param-2 p1a"
+    },
+    "first -c -p1 -p2": {
+      "commandName": "Project",
+      "commandLineArgs": "first --common c1 --param-1 p1a --param-2 p2a"
+    },
+    "second": {
+      "commandName": "Project",
+      "commandLineArgs": "second --common c2 --param-1 p1b -p2 p2b"
+    },
+    "third": {
+      "commandName": "Project",
+      "commandLineArgs": "thrid --common c3 -p1 p1c -p2 p2c"
+    }
+  }
+}
